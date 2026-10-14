@@ -66,6 +66,19 @@
   grid-template-rows: auto 1fr;
 }
 
+.theme-toggle {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+
+
+
 .top-header {
   border-bottom: 1px solid var(--border-subtle);
   background: var(--surface-1);
